@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#fff</color>
+    <color name="message_bg">#97e1e5</color>
+
+
+    <color name="colorPrimary">#dadada</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#b7b7b7</color>
+
+    <color name="color1">#E6E6E6</color>
+    <color name="color2">#F2EFEF</color>
+    <color name="color3">#EBEBEB</color>
+    <color name="top_map_color">#011629</color>
+
+    <color name="bg_map">#1f4769</color>
+    <color name="warnning_color">#691f23</color>
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/aaaaaa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.amhso.nlpapp_doctor.ChatActivity">
+
+    <ListView
+        android:id="@+id/list_message"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="50dp"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:stackFromBottom="true">
+
+    </ListView>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        >
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <!-- Column One -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:id="@+id/aaa"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_alignRight="@+id/text_message"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/aaaa"
+                        android:clickable="true"
+
+
+                        />
+
+
+                    <EditText
+                        android:id="@+id/text_message"
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="5dp"
+                        android:hint="Message"
+                        android:paddingRight="70dp"
+                        android:textColorHighlight="@color/colorPrimary"
+                        android:textColorLink="#ffffff" />
+
+
+                    <ImageView
+                        android:id="@+id/aaaa"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignRight="@+id/text_message"
+                        android:background="@drawable/aaa"
+                        android:clickable="true"
+
+
+                        />
+
+
+                    <ImageView
+                        android:id="@+id/send"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignRight="@+id/text_message"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/send"
+                        android:clickable="true"
+
+
+                        />
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal"></LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </TableRow>
+
+        </TableLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
